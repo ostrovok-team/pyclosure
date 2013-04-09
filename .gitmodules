@@ -1,3 +1,3 @@
 [submodule "pyclosure/closure-library"]
 	path = pyclosure/closure-library
-	url = git@github.com:4u/closure-library.git
+	url = https://github.com/4u/closure-library.git
