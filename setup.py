@@ -18,6 +18,7 @@ def install_deps():
             os.remove(filename)
         else:
             shutil.rmtree(filename)
+    os.chdir(cdir)
 
 class do_develop(develop):
     def run(self):
